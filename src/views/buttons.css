@@ -1,0 +1,33 @@
+.btnWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 1rem;
+}
+
+.btnWrapperProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button.btn {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px 10px 10px;
+  cursor: pointer;
+}
+
+button.moreBtn {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.home {
+  width: 80vw;
+  height: 80vh;
+
+  color: black;
+  background-color: rgba(212, 224, 224, 0.966);
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+  border-radius: 5px;
+}
+
+.carousel {
+  position: relative;
+  width: 80%;
+  height: 30%;
+  padding: 0 1rem 0 1rem;
+}
+
+img {
+  float: none;
+  width: 20%;
+  height: 20%;
+  
+  border-radius:5px;
+  border:5px solid white;
+}
+
+imgContainer {
+  float: none;
+  width: 20%;
+  height: 20%;
+  
+  border-radius:5px;
+  border:5px solid white;
+}
+
+.carouselContent{
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel p {
+  font-size: 0.8rem;
+}
+
+span.outOfStock {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px 10px 10px;
+}
+
+span.banner {
+  float: right;
+  position: absolute;
+  top:0;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 25px 30px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 10px 0px;
+}
+
+

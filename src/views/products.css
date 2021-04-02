@@ -1,0 +1,22 @@
+.products{
+    width: 80vw;
+    height: 80vh;
+
+    color: black;
+    background-color: rgba(212, 224, 224, 0.966);
+
+    border-radius: 5px;
+}
+
+.wrapper {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productInfo {
+    width: 100%;
+    padding: 1rem;
+    font-size: .6rem;
+}

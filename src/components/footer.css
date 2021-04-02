@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    justify-content: center;
+
+    padding: .5rem;
+    margin-top: .5rem;
+
+    border-top: 5px solid #eeeeee;
+    border-bottom: 5px solid #eeeeee;
+}
+
+footer h4 {
+    margin:0;
+    color: #bdbdbd;
+}
